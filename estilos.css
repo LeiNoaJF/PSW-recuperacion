@@ -1,0 +1,100 @@
+body{
+	background: rgb(255, 254, 250);	
+	font-family:ONE DAY;
+	font-size: 1rem;
+	line-height: 1.3em;
+	margin: 0;
+}
+p {
+	margin-bottom: 1.6em; 
+}
+.contenedor_raro {
+	width:90%;
+	max-width: 1200px;
+	margin: auto;
+/*centrar el texto y ajustarlo */
+}
+.contenedor_raro img{
+	float: left;
+	margin-right: 100px;
+	margin-bottom: 50px;
+
+}
+.contenedor_raro2 {
+	width:90%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 6rem 0;
+/*centrar el texto y ajustarlo */
+}
+.contenedor_raro2 img{
+	float: right;
+	margin-left: 100px;
+	margin-bottom: 50px;
+
+}
+.contenedor_raro3 {
+	width:90%;
+	max-width: 1200px;
+	margin: auto;
+/*centrar el texto y ajustarlo */
+}
+.contenedor_raro3 img{
+	float: left;
+	margin-right: 100px;
+	margin-bottom: 50px;
+}
+.menu_de_hasta_arriba_muy_cool{
+	background: #000000;
+	color: rgb(255, 246, 209);
+	padding: 2rem 0; /*centra los elementos a 2 rem de altura*/
+	position: fixed;
+	left:0;
+	top:0;
+	width: 100%;
+}
+.menu_de_hasta_arriba_muy_cool a {
+	color: rgb(255, 246, 209);
+	text-decoration: none; /* sin el subrayado uwuwu*/
+
+}
+.logo-nav-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.navegacion_uwu ul{
+	margin: 0;
+	padding:  0;
+	list-style: none; /*quita el margen y las viñetas*/
+}
+.navegacion_uwu ul li{
+	display: inline-block;
+}
+.navegacion_uwu ul li a{
+	padding: 0.5rem 1rem;
+	transition: all 0.3s linear;
+	border-radius: 0%;
+	width:200px;
+    height:200px;
+    border: solid 3px #000000;
+    overflow:hidden;
+	 /*cosas de las animaciones como borde o canto dura*/ 
+
+}
+.navegacion_uwu ul li a:hover {
+	background: #000000;
+	border: solid 3px rgb(255, 246, 209);
+}
+.logo{
+	letter-spacing: 15px;
+	font-size: 1.3rem;
+}
+.main{
+	padding-top: 6rem; 
+	 /*espacio del menu a al texto*/ 
+}
+
+
+
