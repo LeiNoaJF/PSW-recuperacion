@@ -1,6 +1,6 @@
 body{
-	background: rgb(255, 254, 250);	
-	font-family:ONE DAY;
+	background: white;	
+	font-family: ONE DAY;
 	font-size: 1rem;
 	line-height: 1.3em;
 	margin: 0;
@@ -85,7 +85,7 @@ p {
 }
 .navegacion_uwu ul li a:hover {
 	background: #000000;
-	border: solid 3px rgb(255, 246, 209);
+	border: solid 3px #ffffff;
 }
 .logo{
 	letter-spacing: 15px;
@@ -95,6 +95,24 @@ p {
 	padding-top: 6rem; 
 	 /*espacio del menu a al texto*/ 
 }
+.box select{
+	padding: 10px;
+	width: 250px;
+	font-family: ONE DAY;
+	cursor: pointer;
+}
+.contenedor_raro button{
+    border: none;
+    color: rgb(255, 246, 209);
+	font-size: 15px;
+	font-family: ONE DAY;
+    background: black;
+    padding: 10px 15px;
+    border-radius: 0px;
+    cursor: pointer;
+}
+.contenedor_raro button:hover{
+    transition: all 0.1s linear;
+    border-radius: 10px;
 
-
-
+}
