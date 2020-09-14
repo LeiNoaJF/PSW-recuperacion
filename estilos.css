@@ -109,10 +109,73 @@ p {
     background: black;
     padding: 10px 15px;
     border-radius: 0px;
-    cursor: pointer;
+	cursor: pointer;
 }
 .contenedor_raro button:hover{
     transition: all 0.1s linear;
     border-radius: 10px;
 
+}
+.fondo_inicio button:hover{
+	transition: all 0.1s linear;
+	border-radius: 0px;
+	border: solid 3px #ffffff;
+	font-size: 20px;
+
+
+}
+.fondo_inicio button{
+    border: none;
+    color: rgb(255, 246, 209);
+	font-size: 15px;
+	font-family: ONE DAY;
+    background: black;
+    padding: 10px 15px;
+    border-radius: 0px;
+	cursor: pointer;
+	border: solid 3px#00000000;
+	font-size: 20px; 
+
+}
+
+
+.login{
+	margin-top: 130px;
+	margin-bottom: 250px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 40%;
+	height: 100%;
+  }
+  .fondo_inicio{
+	width: 100%;
+	background-color:black;
+	margin:0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+	border-radius: 5px;
+  }
+  .fondo_inicio h2{
+	color: rgb(255, 246, 209);
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 40px;
+  }
+
+  .cuadrito_texto{
+	background-color:white;
+	width: 90%;
+	margin-bottom: 35px;
+	height: 30px;
+	border: solid 2px rgba(0, 0, 0, 0.5);
+	font-size: 20px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	text-align: right;
+  }
+  .fondo_inicio p{
+	color:  rgb(255, 246, 209); 
 }
